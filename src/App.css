@@ -1,0 +1,60 @@
+h1, p {
+  font-family: Lato;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #85449e, #5fc3e4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: rgba(255,255,255,0.8);
+  font-size: 4rem;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  border: solid 2px rgba(255,255,255,0.8);
+  border-radius: 5px;
+  background: none;
+  font-size: 2rem;
+  color: rgba(255,255,255,0.8);
+  padding: 7px 10px;
+  width: 70%;
+  transition: 400ms;
+}
+
+input:focus {
+  width: 100%;
+  outline: none;
+}
+
+button {
+  background: rgba(255,255,255,0.3);
+  font-size: 2rem;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 10px;
+  color:  rgba(255,255,255,0.8);
+  border: solid 4px rgba(255,255,255,0.8);
+  border-radius: 10px;
+}
+
+li {
+  color: rgba(255,255,255,0.8);
+  font-size: 2rem;
+}
+
+input::placeholder {
+  color: #ffffff70;
+}
